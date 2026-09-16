@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MFA Verification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="center">
+<div class="card login">
+    <h1>MFA Verification</h1>
+    <p>Enter the demo OTP below.</p>
+
+    <div class="otp">{{ demo_otp }}</div>
+
+    <form method="POST" action="{{ url_for('verify_mfa') }}">
+        <label>OTP</label>
+        <input name="otp" maxlength="6" required inputmode="numeric">
+        <button>Verify</button>
+    </form>
+</div>
+</body>
+</html>
