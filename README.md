@@ -135,6 +135,9 @@ Tier 5:
 - Audit events
 - SIEM dashboard
 
+Vercel deployment link:
+https://securequestionpapermanagement2.vercel.app/login
+
 ## Important academic-project limitation
 
 This project is intentionally simple. The MFA, WAF, API gateway, KMS and SIEM components are educational simulations, not production-grade security infrastructure.
