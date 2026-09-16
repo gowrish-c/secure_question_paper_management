@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIEM Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+    <h1>SIEM Dashboard</h1>
+    <a href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+</header>
+
+<main>
+<section class="card">
+<h2>Audit Events</h2>
+<table>
+<tr><th>Timestamp</th><th>User</th><th>Action</th><th>Details</th></tr>
+{% for log in logs %}
+<tr>
+<td>{{ log.timestamp }}</td>
+<td>{{ log.user }}</td>
+<td>{{ log.action }}</td>
+<td>{{ log.details }}</td>
+</tr>
+{% endfor %}
+</table>
+</section>
+</main>
+</body>
+</html>
