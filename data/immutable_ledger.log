@@ -1,0 +1,3 @@
+{"timestamp": "2026-09-16T16:05:24.160775+00:00", "user": "GOWRISH C", "action": "LOGIN_FAILED", "details": "Invalid username or password"}
+{"timestamp": "2026-09-16T16:05:59.486544+00:00", "user": "setter", "action": "MFA_REQUESTED", "details": "Demo OTP generated"}
+{"timestamp": "2026-09-16T16:06:32.519759+00:00", "user": "setter", "action": "LOGIN_SUCCESS", "details": "MFA verified"}
