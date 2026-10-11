@@ -141,3 +141,6 @@ https://securequestionpapermanagement2.vercel.app/login
 ## Important academic-project limitation
 
 This project is intentionally simple. The MFA, WAF, API gateway, KMS and SIEM components are educational simulations, not production-grade security infrastructure.
+
+Project video:
+https://drive.google.com/file/d/1jDwBza_Ttgui52tZXIqqMmIq1nNDBVve/view?usp=drivesdk
